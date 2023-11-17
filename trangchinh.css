@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Open+Sans:wght@300;400&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style:none;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    
+}
+body{
+    font-family: 'Montserrat', 'san-serif';
+    color: #fff;
+    background: #333;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    border-bottom: 1 solid #f5f5f5;
+    padding:20px 0px;
+    transition:all 0.4s ease-in-out;
+}
+header.sticky{
+    background:#fff;
+    opacity: 0.9;
+}
+header.sticky #logo{
+    color:#000;
+}
+header.sticky .main-menu a{
+    color:#000;
+   
+}
+.inner-header .header_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_navbar
+  
+.main-menu{
+    list-style: none;
+    display: flex;
+}
+.main-menu a{
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+}
+.header_navbar-item{
+    display: inline-block;
+    position: relative;
+}
+#logo{
+    text-decoration: none;
+    color: #fff ;
+    font-size: 2.5em;
+     letter-spacing: 4px;
+     font-weight: bold;
+     text-transform:uppercase ;
+     display: block;
+}
+
+#banner{
+    background: url(/anh/WHITE-FERRARI-HEROSCREEN-5192023.png);
+    min-height: 720px;
+    width: 100%;
+}
+/* css đăng nhập*/
